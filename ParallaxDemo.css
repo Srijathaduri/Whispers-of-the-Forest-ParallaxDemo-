@@ -1,0 +1,72 @@
+ body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: sans-serif;
+      scroll-behavior: smooth;
+    }
+    .parallax-heading{
+      font-size:50px;
+      color:"black";
+      text-align:center;
+    }
+    .parallax {
+      /* This is the key effect */
+      background-image: url('https://picsum.photos/id/1018/1000/600'); /* Replace with your image */
+      height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .content {
+      height: 100vh;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+
+    .parallax2 {
+      background-image: url('https://picsum.photos/id/1015/1000/600');
+      height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+   
+    .content-heading{
+      font-size:50px;
+      padding:10px;
+    }
+    .content-para{
+      font-size:20px;
+       padding:10px;
+    }
+    .parallax3 {
+      background-image: url('https://picsum.photos/id/1016/1000/600');
+      height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .parallax4 {
+      background-image: url('https://picsum.photos/id/1019/1000/600');
+      height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .parallax5 {
+      background-image: url('https://picsum.photos/id/1020/1000/600');
+      height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
